@@ -1,0 +1,70 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793146694.300790     398 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1793146694.301486     398 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+I0000 00:00:1793146694.352862     398 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 AVX512_FP16 AVX_VNNI AMX_TILE AMX_INT8 AMX_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793146695.723613     398 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1793146695.724077     398 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+Train: (54000, 28, 28, 1) Val: (6000, 28, 28, 1)
+E0000 00:00:1793146702.952794     398 cuda_platform.cc:52] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: UNKNOWN ERROR (303)
+Epoch 1/5
+422/422 - 10s - 25ms/step - accuracy: 0.9404 - loss: 0.2105 - val_accuracy: 0.9770 - val_loss: 0.0873
+Epoch 2/5
+422/422 - 9s - 22ms/step - accuracy: 0.9817 - loss: 0.0587 - val_accuracy: 0.9788 - val_loss: 0.0716
+Epoch 3/5
+422/422 - 11s - 25ms/step - accuracy: 0.9871 - loss: 0.0409 - val_accuracy: 0.9858 - val_loss: 0.0497
+Epoch 4/5
+422/422 - 9s - 22ms/step - accuracy: 0.9899 - loss: 0.0319 - val_accuracy: 0.9868 - val_loss: 0.0483
+Epoch 5/5
+422/422 - 9s - 21ms/step - accuracy: 0.9927 - loss: 0.0246 - val_accuracy: 0.9873 - val_loss: 0.0496
+Epoch 1/5
+422/422 - 12s - 27ms/step - accuracy: 0.9002 - loss: 0.3241 - val_accuracy: 0.9783 - val_loss: 0.0801
+Epoch 2/5
+422/422 - 21s - 50ms/step - accuracy: 0.9681 - loss: 0.1028 - val_accuracy: 0.9827 - val_loss: 0.0642
+Epoch 3/5
+422/422 - 19s - 46ms/step - accuracy: 0.9762 - loss: 0.0772 - val_accuracy: 0.9865 - val_loss: 0.0486
+Epoch 4/5
+422/422 - 13s - 32ms/step - accuracy: 0.9807 - loss: 0.0630 - val_accuracy: 0.9868 - val_loss: 0.0472
+Epoch 5/5
+422/422 - 16s - 38ms/step - accuracy: 0.9822 - loss: 0.0570 - val_accuracy: 0.9882 - val_loss: 0.0453
+Epoch 1/5
+422/422 - 25s - 59ms/step - accuracy: 0.9225 - loss: 0.2500 - val_accuracy: 0.9803 - val_loss: 0.0700
+Epoch 2/5
+422/422 - 39s - 92ms/step - accuracy: 0.9753 - loss: 0.0816 - val_accuracy: 0.9843 - val_loss: 0.0574
+Epoch 3/5
+422/422 - 44s - 105ms/step - accuracy: 0.9812 - loss: 0.0619 - val_accuracy: 0.9877 - val_loss: 0.0417
+Epoch 4/5
+422/422 - 41s - 96ms/step - accuracy: 0.9845 - loss: 0.0508 - val_accuracy: 0.9875 - val_loss: 0.0446
+Epoch 5/5
+422/422 - 22s - 52ms/step - accuracy: 0.9863 - loss: 0.0445 - val_accuracy: 0.9890 - val_loss: 0.0401
+Epoch 1/12
+422/422 - 9s - 21ms/step - accuracy: 0.9002 - loss: 0.3241 - val_accuracy: 0.9783 - val_loss: 0.0801
+Epoch 2/12
+422/422 - 8s - 19ms/step - accuracy: 0.9681 - loss: 0.1028 - val_accuracy: 0.9827 - val_loss: 0.0642
+Epoch 3/12
+422/422 - 11s - 26ms/step - accuracy: 0.9762 - loss: 0.0772 - val_accuracy: 0.9865 - val_loss: 0.0486
+Epoch 4/12
+422/422 - 8s - 19ms/step - accuracy: 0.9807 - loss: 0.0630 - val_accuracy: 0.9868 - val_loss: 0.0472
+Epoch 5/12
+422/422 - 8s - 19ms/step - accuracy: 0.9822 - loss: 0.0570 - val_accuracy: 0.9882 - val_loss: 0.0453
+Epoch 6/12
+422/422 - 10s - 23ms/step - accuracy: 0.9842 - loss: 0.0516 - val_accuracy: 0.9887 - val_loss: 0.0429
+Epoch 7/12
+422/422 - 8s - 18ms/step - accuracy: 0.9847 - loss: 0.0468 - val_accuracy: 0.9885 - val_loss: 0.0394
+Epoch 8/12
+422/422 - 8s - 19ms/step - accuracy: 0.9873 - loss: 0.0421 - val_accuracy: 0.9885 - val_loss: 0.0378
+Epoch 9/12
+422/422 - 8s - 18ms/step - accuracy: 0.9882 - loss: 0.0374 - val_accuracy: 0.9887 - val_loss: 0.0414
+Epoch 10/12
+422/422 - 8s - 19ms/step - accuracy: 0.9884 - loss: 0.0354 - val_accuracy: 0.9892 - val_loss: 0.0410
+Epoch 11/12
+422/422 - 10s - 23ms/step - accuracy: 0.9894 - loss: 0.0321 - val_accuracy: 0.9890 - val_loss: 0.0363
+Epoch 12/12
+422/422 - 10s - 24ms/step - accuracy: 0.9901 - loss: 0.0303 - val_accuracy: 0.9895 - val_loss: 0.0386
+    Biến thể Filters  Dropout  Epochs  Params  Train acc  Val acc  Val loss  Thời gian (s)
+    baseline   32-64      0.0       5  225034     0.9927   0.9873    0.0496             50
+     dropout   32-64      0.4       5  225034     0.9822   0.9882    0.0453             82
+more_filters  64-128      0.4       5  485514     0.9863   0.9890    0.0401            171
+dropout_12ep   32-64      0.4      12  225034     0.9901   0.9895    0.0386            106
+Biến thể tốt nhất: dropout_12ep -> models/best_model.keras
